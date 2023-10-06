@@ -1,0 +1,33 @@
+.nav-container {
+    flex-basis: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+nav a,
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: forestgreen;
+}
+
+ul {
+    list-style-type: none;
+    flex-basis: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
